@@ -1664,14 +1664,6 @@ pub type XDP_OPEN_API_FN = ::std::option::Option<
 pub type XDP_CLOSE_API_FN =
     ::std::option::Option<unsafe extern "C" fn(XdpApiTable: *const XDP_API_TABLE)>;
 
-/* extern "C" {
-    pub fn XdpOpenApi(XdpApiVersion: UINT32, XdpApiTable: *mut *const XDP_API_TABLE) -> HRESULT;
-} */
-
-/* extern "C" {
-    pub fn XdpCloseApi(XdpApiTable: *const XDP_API_TABLE);
-} */
-
 pub type XDP_GET_ROUTINE_FN = ::std::option::Option<
     unsafe extern "C" fn(RoutineName: *const CHAR) -> *mut ::std::os::raw::c_void,
 >;
@@ -1874,4 +1866,36 @@ pub struct _ACTIVATION_CONTEXT {
 #[derive(Debug, Copy, Clone)]
 pub struct NET_ADDRESS_INFO_ {
     pub _address: u8,
+}
+
+#[link(name = "xdpapi")]
+extern "C" {
+    pub fn XdpOpenApi(XdpApiVersion: UINT32, XdpApiTable: *mut *const XDP_API_TABLE) -> HRESULT;
+    pub fn XdpCloseApi(XdpApiTable: *const XDP_API_TABLE);
+}
+
+// test for link with xdpapi.dll
+#[cfg(test)]
+mod tests {
+    use super::*;
+    //use std::ffi::CString;
+    use std::ptr::null_mut;
+
+    #[test]
+    fn test_xdp_open_api() {
+        unsafe {
+            let mut xdp_api_table: *const XDP_API_TABLE = null_mut();
+
+            let result = XdpOpenApi(1, &mut xdp_api_table);
+            if result.is_ok() {
+                println!("XdpOpenApi is ok");
+                // Close the XDP API
+                XdpCloseApi(xdp_api_table);
+                println!("XdpCloseApi is ok");
+            } else {
+                println!("XdpOpenApi error: {:?}", result);
+            }
+            assert_eq!(result, HRESULT(0));
+        }
+    }
 }
