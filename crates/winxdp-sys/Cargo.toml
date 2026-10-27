@@ -1,0 +1,32 @@
+[package]
+name = "winxdp-sys"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+repository.workspace = true
+description = "Pinned XDP for Windows API v3 bindings and header-only bridge"
+readme = "README.md"
+documentation = "https://docs.rs/winxdp-sys"
+keywords = ["windows", "xdp", "network", "ffi", "afxdp"]
+categories = ["external-ffi-bindings", "network-programming", "os::windows-apis"]
+include = ["Cargo.toml", "README.md", "LICENSE", "build.rs", "src/**", "native/**", "vendor/**", "tests/**", "benches/**"]
+links = "winxdp_bridge"
+
+[features]
+legacy-rules = []
+
+[dependencies]
+windows-sys = { version = "0.61", features = ["Win32_Foundation", "Win32_System_IO"] }
+
+[build-dependencies]
+cc = "1"
+[[bench]]
+name = "rings"
+path = "benches/rings.rs"
+harness = false
+
+[package.metadata.docs.rs]
+default-target = "x86_64-pc-windows-msvc"
+targets = ["x86_64-pc-windows-msvc"]
+all-features = true

@@ -1,0 +1,108 @@
+{
+  "tag": "v1.4.0",
+  "revision": "d372b52577a724e04fa4c06acb90bbfa4719fc25",
+  "api_version": 3,
+  "files": [
+    {
+      "path": "afxdp.h",
+      "sha256": "f9446cfa52b9fd834b5877fe1c700269900a1ea5ec35ee57eb818e21b8b64f28"
+    },
+    {
+      "path": "afxdp_experimental.h",
+      "sha256": "2b132d59cd8c7a7f4418e0c5a089da853559c9c84c30c5b53500fca63b42377e"
+    },
+    {
+      "path": "afxdp_helper.h",
+      "sha256": "5c522da5d4b27a35c0e47dc1f8ec37ee34b54475f007457f2960b99eeb205d5e"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "path": "xdp/apiversion.h",
+      "sha256": "caaa43cbfc8a6824fe0576ffd20684cc63fc173cef67c05245ea0bf345c89d02"
+    },
+    {
+      "path": "xdp/details/afxdp.h",
+      "sha256": "2fcff8d51e1c2f48c4b26dad8892dbe3bde69196463b5245ea1f087f49ee114a"
+    },
+    {
+      "path": "xdp/details/apiassert.h",
+      "sha256": "17eabe80f94120d3369dc8a9f6644f5be83aed53aa7c04b4e8ffcc9cf6445b27"
+    },
+    {
+      "path": "xdp/details/assert.h",
+      "sha256": "d36d12835ecbc1f6512ac4bdb8dc11c037290ff8f7dee881a192b2b858f3e608"
+    },
+    {
+      "path": "xdp/details/ioctldef.h",
+      "sha256": "27c43c05e8f70ebc527e70cea682d4e1a9b06583fee2fcf53bcb88670d045b7b"
+    },
+    {
+      "path": "xdp/details/ioctlfn.h",
+      "sha256": "b03748de4abcedd2623d262ab52211015edd8782a8b6b125788ad7944c952654"
+    },
+    {
+      "path": "xdp/details/xdpapi.h",
+      "sha256": "6b7dcdd0a50c56b3e6f6c940718144afa5ca31856a693ae653e334badf95f709"
+    },
+    {
+      "path": "xdp/details/xdpapi_experimental.h",
+      "sha256": "48ed77acacea79ae15a1c0693ddaee39896044b1ecc442eb149e8a7e799a697d"
+    },
+    {
+      "path": "xdp/ebpfhook.h",
+      "sha256": "40c7083438735ca0c90ed0e23eaf7a03d10ab1cf897215df1ab572f1091ef587"
+    },
+    {
+      "path": "xdp/framechecksum.h",
+      "sha256": "c7a39132fc17f6db95def41eed1c90b347be3766448110bc7c1b5be93437950f"
+    },
+    {
+      "path": "xdp/framelayout.h",
+      "sha256": "2fa29c0a706aceae4bf068d4d3ddab62f8156b976bd3afb6d332723965cea694"
+    },
+    {
+      "path": "xdp/frametimestamp.h",
+      "sha256": "f59953c6857cb95a197322b9405d197434b2ae9604a6d11f8de1f0ac7c4c94cc"
+    },
+    {
+      "path": "xdp/hookid.h",
+      "sha256": "3f46205d8fe82d0cc5ae85262ad4604ca9dcfd7cc573b4ce427aac8eb807f3b5"
+    },
+    {
+      "path": "xdp/objectheader.h",
+      "sha256": "52ec9905fefcd90f8bc7de0f9a4c9dd0fe4386e009c2ba74397f3cf4ca183907"
+    },
+    {
+      "path": "xdp/overlapped.h",
+      "sha256": "188d40fb038ca4ef4cba31359056743107723e5df68dcbac890be15d30cf83ff"
+    },
+    {
+      "path": "xdp/program.h",
+      "sha256": "9ed48b1687feea105a4e0c1e227cee7e1095237ffceb42fe3b05b20353b19350"
+    },
+    {
+      "path": "xdp/rtl.h",
+      "sha256": "42cec1a2e45ee1d455a0d256bd3c8976eb4dbb7001b675174fec801c8df434f7"
+    },
+    {
+      "path": "xdp/status.h",
+      "sha256": "5a0570de410a12399cc10de88f4f4ebf4894582abdb1b78fcf82d618f8610968"
+    },
+    {
+      "path": "xdp/wincommon.h",
+      "sha256": "73e1831f11d00135df292d94d046a2207062940ddbe16cdbb74d6363d9f6622f"
+    },
+    {
+      "path": "xdpapi.h",
+      "sha256": "fb7bb919ef7800ddea6e047781a5952eaa028608e429d8f576d2893c8bc4930e"
+    },
+    {
+      "path": "xdpapi_experimental.h",
+      "sha256": "79ecb055f2625c32e87179b2f2cc1b08b20e8a1b2724c6f9405e46b6aab7d0d7"
+    }
+  ],
+  "hash_normalization": "LF line endings"
+}

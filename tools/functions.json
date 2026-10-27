@@ -1,0 +1,340 @@
+[
+  [
+    "XDP_STATUS",
+    "XskCreate",
+    "HANDLE* Socket",
+    [
+      "Socket"
+    ],
+    "afxdp.h"
+  ],
+  [
+    "XDP_STATUS",
+    "XskBind",
+    "HANDLE Socket, UINT32 IfIndex, UINT32 QueueId, XSK_BIND_FLAGS Flags",
+    [
+      "Socket",
+      "IfIndex",
+      "QueueId",
+      "Flags"
+    ],
+    "afxdp.h"
+  ],
+  [
+    "XDP_STATUS",
+    "XskActivate",
+    "HANDLE Socket, XSK_ACTIVATE_FLAGS Flags",
+    [
+      "Socket",
+      "Flags"
+    ],
+    "afxdp.h"
+  ],
+  [
+    "XDP_STATUS",
+    "XskSetSockopt",
+    "HANDLE Socket, UINT32 OptionName, const VOID *OptionValue, UINT32 OptionLength",
+    [
+      "Socket",
+      "OptionName",
+      "OptionValue",
+      "OptionLength"
+    ],
+    "afxdp.h"
+  ],
+  [
+    "XDP_STATUS",
+    "XskGetSockopt",
+    "HANDLE Socket, UINT32 OptionName, VOID *OptionValue, UINT32 *OptionLength",
+    [
+      "Socket",
+      "OptionName",
+      "OptionValue",
+      "OptionLength"
+    ],
+    "afxdp.h"
+  ],
+  [
+    "XDP_STATUS",
+    "XskIoctl",
+    "HANDLE Socket, UINT32 OptionName, const VOID *InputValue, UINT32 InputLength, VOID *OutputValue, UINT32 *OutputLength",
+    [
+      "Socket",
+      "OptionName",
+      "InputValue",
+      "InputLength",
+      "OutputValue",
+      "OutputLength"
+    ],
+    "afxdp.h"
+  ],
+  [
+    "XDP_STATUS",
+    "XskNotifySocket",
+    "HANDLE Socket, XSK_NOTIFY_FLAGS Flags, UINT32 WaitTimeoutMilliseconds, XSK_NOTIFY_RESULT_FLAGS *Result",
+    [
+      "Socket",
+      "Flags",
+      "WaitTimeoutMilliseconds",
+      "Result"
+    ],
+    "afxdp.h"
+  ],
+  [
+    "XDP_STATUS",
+    "XskNotifyAsync",
+    "HANDLE Socket, XSK_NOTIFY_FLAGS Flags, XDP_OVERLAPPED *Overlapped",
+    [
+      "Socket",
+      "Flags",
+      "Overlapped"
+    ],
+    "afxdp.h"
+  ],
+  [
+    "XDP_STATUS",
+    "XskGetNotifyAsyncResult",
+    "XDP_OVERLAPPED *Overlapped, XSK_NOTIFY_RESULT_FLAGS *Result",
+    [
+      "Overlapped",
+      "Result"
+    ],
+    "afxdp.h"
+  ],
+  [
+    "VOID",
+    "XskRingInitialize",
+    "XSK_RING *Ring, const XSK_RING_INFO *RingInfo",
+    [
+      "Ring",
+      "RingInfo"
+    ],
+    "afxdp_helper.h"
+  ],
+  [
+    "VOID *",
+    "XskRingGetElement",
+    "const XSK_RING *Ring, UINT32 Index",
+    [
+      "Ring",
+      "Index"
+    ],
+    "afxdp_helper.h"
+  ],
+  [
+    "UINT32",
+    "XskRingGetFlags",
+    "const XSK_RING *Ring",
+    [
+      "Ring"
+    ],
+    "afxdp_helper.h"
+  ],
+  [
+    "UINT32",
+    "XskRingConsumerReserve",
+    "XSK_RING *Ring, UINT32 MaxCount, UINT32 *Index",
+    [
+      "Ring",
+      "MaxCount",
+      "Index"
+    ],
+    "afxdp_helper.h"
+  ],
+  [
+    "VOID",
+    "XskRingConsumerRelease",
+    "XSK_RING *Ring, UINT32 Count",
+    [
+      "Ring",
+      "Count"
+    ],
+    "afxdp_helper.h"
+  ],
+  [
+    "UINT32",
+    "XskRingProducerReserve",
+    "XSK_RING *Ring, UINT32 MaxCount, UINT32 *Index",
+    [
+      "Ring",
+      "MaxCount",
+      "Index"
+    ],
+    "afxdp_helper.h"
+  ],
+  [
+    "VOID",
+    "XskRingProducerSubmit",
+    "XSK_RING *Ring, UINT32 Count",
+    [
+      "Ring",
+      "Count"
+    ],
+    "afxdp_helper.h"
+  ],
+  [
+    "BOOLEAN",
+    "XskRingError",
+    "const XSK_RING *Ring",
+    [
+      "Ring"
+    ],
+    "afxdp_helper.h"
+  ],
+  [
+    "BOOLEAN",
+    "XskRingProducerNeedPoke",
+    "const XSK_RING *Ring",
+    [
+      "Ring"
+    ],
+    "afxdp_helper.h"
+  ],
+  [
+    "BOOLEAN",
+    "XskRingAffinityChanged",
+    "const XSK_RING *Ring",
+    [
+      "Ring"
+    ],
+    "afxdp_helper.h"
+  ],
+  [
+    "BOOLEAN",
+    "XskRingOffloadChanged",
+    "const XSK_RING *Ring",
+    [
+      "Ring"
+    ],
+    "afxdp_helper.h"
+  ],
+  [
+    "XDP_STATUS",
+    "XdpCreateProgram",
+    "UINT32 InterfaceIndex, const XDP_HOOK_ID *HookId, UINT32 QueueId, XDP_CREATE_PROGRAM_FLAGS Flags, const XDP_RULE *Rules, UINT32 RuleCount, HANDLE *Program",
+    [
+      "InterfaceIndex",
+      "HookId",
+      "QueueId",
+      "Flags",
+      "Rules",
+      "RuleCount",
+      "Program"
+    ],
+    "xdpapi.h"
+  ],
+  [
+    "XDP_STATUS",
+    "XdpInterfaceOpen",
+    "UINT32 InterfaceIndex, HANDLE *InterfaceHandle",
+    [
+      "InterfaceIndex",
+      "InterfaceHandle"
+    ],
+    "xdpapi.h"
+  ],
+  [
+    "XDP_STATUS",
+    "XdpMapCreate",
+    "HANDLE *Map, XDP_MAP_TYPE Type",
+    [
+      "Map",
+      "Type"
+    ],
+    "xdpapi.h"
+  ],
+  [
+    "XDP_STATUS",
+    "XdpMapInsert",
+    "HANDLE Map, const VOID *Key, const VOID *Value",
+    [
+      "Map",
+      "Key",
+      "Value"
+    ],
+    "xdpapi.h"
+  ],
+  [
+    "XDP_STATUS",
+    "XdpMapDelete",
+    "HANDLE Map, const VOID *Key",
+    [
+      "Map",
+      "Key"
+    ],
+    "xdpapi.h"
+  ],
+  [
+    "VOID",
+    "XdpInitializeRssCapabilities",
+    "XDP_RSS_CAPABILITIES *RssCapabilities",
+    [
+      "RssCapabilities"
+    ],
+    "xdpapi_experimental.h"
+  ],
+  [
+    "VOID",
+    "XdpInitializeRssConfiguration",
+    "XDP_RSS_CONFIGURATION *RssConfiguration, UINT32 RssConfigurationSize",
+    [
+      "RssConfiguration",
+      "RssConfigurationSize"
+    ],
+    "xdpapi_experimental.h"
+  ],
+  [
+    "VOID",
+    "XdpInitializeQuicConnection",
+    "XDP_QUIC_CONNECTION *XdpQuicConnection, UINT32 XdpQuicConnectionSize",
+    [
+      "XdpQuicConnection",
+      "XdpQuicConnectionSize"
+    ],
+    "xdpapi_experimental.h"
+  ],
+  [
+    "XDP_STATUS",
+    "XdpRssGetCapabilities",
+    "HANDLE InterfaceHandle, XDP_RSS_CAPABILITIES *RssCapabilities, UINT32 *RssCapabilitiesSize",
+    [
+      "InterfaceHandle",
+      "RssCapabilities",
+      "RssCapabilitiesSize"
+    ],
+    "xdpapi_experimental.h"
+  ],
+  [
+    "XDP_STATUS",
+    "XdpRssSet",
+    "HANDLE InterfaceHandle, const XDP_RSS_CONFIGURATION *RssConfiguration, UINT32 RssConfigurationSize",
+    [
+      "InterfaceHandle",
+      "RssConfiguration",
+      "RssConfigurationSize"
+    ],
+    "xdpapi_experimental.h"
+  ],
+  [
+    "XDP_STATUS",
+    "XdpRssGet",
+    "HANDLE InterfaceHandle, XDP_RSS_CONFIGURATION *RssConfiguration, UINT32 *RssConfigurationSize",
+    [
+      "InterfaceHandle",
+      "RssConfiguration",
+      "RssConfigurationSize"
+    ],
+    "xdpapi_experimental.h"
+  ],
+  [
+    "XDP_STATUS",
+    "XdpQeoSet",
+    "HANDLE InterfaceHandle, XDP_QUIC_CONNECTION *QuicConnections, UINT32 QuicConnectionsSize",
+    [
+      "InterfaceHandle",
+      "QuicConnections",
+      "QuicConnectionsSize"
+    ],
+    "xdpapi_experimental.h"
+  ]
+]

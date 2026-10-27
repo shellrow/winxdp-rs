@@ -1,0 +1,11 @@
+[workspace]
+members = ["crates/winxdp-sys", "crates/winxdp"]
+exclude = ["tools/generate"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+rust-version = "1.88"
+repository = "https://github.com/shellrow/winxdp"

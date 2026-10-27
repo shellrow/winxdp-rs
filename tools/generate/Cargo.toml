@@ -1,0 +1,8 @@
+[package]
+name = "winxdp-generate"
+version = "0.0.0"
+edition = "2024"
+publish = false
+[dependencies]
+bindgen = "0.72"
+find-msvc-tools = "0.1"

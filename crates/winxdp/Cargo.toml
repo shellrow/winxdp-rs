@@ -1,0 +1,86 @@
+[package]
+name = "winxdp"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+repository.workspace = true
+description = "Safe scoped packet I/O for Microsoft XDP for Windows"
+readme = "README.md"
+documentation = "https://docs.rs/winxdp"
+keywords = ["windows", "xdp", "network", "packet", "afxdp"]
+categories = ["network-programming", "os::windows-apis"]
+include = ["Cargo.toml", "README.md", "LICENSE", "src/**", "examples/**", "tests/**"]
+
+[features]
+default = []
+async = []
+ebpf = ["dep:libloading"]
+legacy-rules = ["winxdp-sys/legacy-rules"]
+
+[dependencies]
+libloading = { version = "0.8", optional = true }
+winxdp-sys = { path = "../winxdp-sys", version = "0.1.0" }
+windows-sys = { version = "0.61", features = ["Win32_Foundation", "Win32_System_Memory", "Win32_NetworkManagement_IpHelper", "Win32_NetworkManagement_Ndis", "Win32_Networking_WinSock", "Win32_System_IO", "Win32_System_Threading", "Win32_Security", "Win32_System_LibraryLoader"] }
+
+[dev-dependencies]
+nex-packet = "=0.27.0"
+
+[[example]]
+name = "interfaces"
+path = "examples/interfaces.rs"
+
+[[example]]
+name = "rx"
+path = "examples/rx.rs"
+required-features = ["ebpf"]
+
+[[example]]
+name = "tx"
+path = "examples/tx.rs"
+
+[[example]]
+name = "rx_batch"
+path = "examples/rx_batch.rs"
+required-features = ["ebpf"]
+
+[[example]]
+name = "tx_batch"
+path = "examples/tx_batch.rs"
+
+[[example]]
+name = "bridge"
+path = "examples/bridge.rs"
+required-features = ["ebpf"]
+
+[[example]]
+name = "multi_queue"
+path = "examples/multi_queue.rs"
+required-features = ["ebpf"]
+
+[[example]]
+name = "rx_nex_packet"
+path = "examples/rx_nex_packet.rs"
+required-features = ["ebpf"]
+
+[[example]]
+name = "tx_nex_packet"
+path = "examples/tx_nex_packet.rs"
+[[example]]
+name = "packet_bench"
+path = "examples/packet_bench.rs"
+[[test]]
+name = "hardware"
+path = "tests/hardware/lifecycle.rs"
+[[example]]
+name = "notify_async"
+path = "examples/notify_async.rs"
+[[example]]
+name = "notify_owned"
+path = "examples/notify_owned.rs"
+required-features = ["async"]
+
+[package.metadata.docs.rs]
+default-target = "x86_64-pc-windows-msvc"
+targets = ["x86_64-pc-windows-msvc"]
+all-features = true

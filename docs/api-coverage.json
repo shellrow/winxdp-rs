@@ -1,0 +1,2692 @@
+[
+  {
+    "symbol": "XDP_CHECKSUM_CONFIGURATION",
+    "kind": "type",
+    "header": "afxdp_experimental.h",
+    "sys": "XDP_CHECKSUM_CONFIGURATION",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_CREATE_PROGRAM_FLAGS",
+    "kind": "type",
+    "header": "xdpapi.h",
+    "sys": "XDP_CREATE_PROGRAM_FLAGS",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_EBPF_PARAMS",
+    "kind": "type",
+    "header": "xdp/program.h",
+    "sys": "XDP_EBPF_PARAMS",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_FRAME_CHECKSUM",
+    "kind": "type",
+    "header": "afxdp_experimental.h",
+    "sys": "XDP_FRAME_CHECKSUM",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_FRAME_LAYER2_TYPE",
+    "kind": "type",
+    "header": "xdp/framelayout.h",
+    "sys": "XDP_FRAME_LAYER2_TYPE",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_FRAME_LAYER3_TYPE",
+    "kind": "type",
+    "header": "xdp/framelayout.h",
+    "sys": "XDP_FRAME_LAYER3_TYPE",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_FRAME_LAYER4_TYPE",
+    "kind": "type",
+    "header": "xdp/framelayout.h",
+    "sys": "XDP_FRAME_LAYER4_TYPE",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_FRAME_LAYOUT",
+    "kind": "type",
+    "header": "afxdp_experimental.h",
+    "sys": "XDP_FRAME_LAYOUT",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_FRAME_RX_CHECKSUM_EVALUATION",
+    "kind": "type",
+    "header": "xdp/framechecksum.h",
+    "sys": "XDP_FRAME_RX_CHECKSUM_EVALUATION",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_FRAME_TIMESTAMP",
+    "kind": "type",
+    "header": "xdp/frametimestamp.h",
+    "sys": "XDP_FRAME_TIMESTAMP",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_FRAME_TX_CHECKSUM_ACTION",
+    "kind": "type",
+    "header": "xdp/framechecksum.h",
+    "sys": "XDP_FRAME_TX_CHECKSUM_ACTION",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_HOOK_DATAPATH_DIRECTION",
+    "kind": "type",
+    "header": "xdp/hookid.h",
+    "sys": "XDP_HOOK_DATAPATH_DIRECTION",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_HOOK_ID",
+    "kind": "type",
+    "header": "xdpapi.h",
+    "sys": "XDP_HOOK_ID",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_HOOK_LAYER",
+    "kind": "type",
+    "header": "xdp/hookid.h",
+    "sys": "XDP_HOOK_LAYER",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_HOOK_SUBLAYER",
+    "kind": "type",
+    "header": "xdp/hookid.h",
+    "sys": "XDP_HOOK_SUBLAYER",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_INET_ADDR",
+    "kind": "type",
+    "header": "xdp/program.h",
+    "sys": "XDP_INET_ADDR",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_IP_ADDRESS_MASK",
+    "kind": "type",
+    "header": "xdp/program.h",
+    "sys": "XDP_IP_ADDRESS_MASK",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_IP_PORT_SET",
+    "kind": "type",
+    "header": "xdp/program.h",
+    "sys": "XDP_IP_PORT_SET",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_MAP_TYPE",
+    "kind": "type",
+    "header": "xdpapi.h",
+    "sys": "XDP_MAP_TYPE",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_MATCH_PATTERN",
+    "kind": "type",
+    "header": "xdp/program.h",
+    "sys": "XDP_MATCH_PATTERN",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_MATCH_TYPE",
+    "kind": "type",
+    "header": "xdp/program.h",
+    "sys": "XDP_MATCH_TYPE",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_OBJECT_HEADER",
+    "kind": "type",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_OBJECT_HEADER",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_OVERLAPPED",
+    "kind": "type",
+    "header": "afxdp.h",
+    "sys": "XDP_OVERLAPPED",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_PORT_SET",
+    "kind": "type",
+    "header": "xdp/program.h",
+    "sys": "XDP_PORT_SET",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_QUIC_ADDRESS_FAMILY",
+    "kind": "type",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_QUIC_ADDRESS_FAMILY",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_QUIC_CIPHER_TYPE",
+    "kind": "type",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_QUIC_CIPHER_TYPE",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_QUIC_CONNECTION",
+    "kind": "type",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_QUIC_CONNECTION",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_QUIC_DECRYPT_FAILURE_ACTION",
+    "kind": "type",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_QUIC_DECRYPT_FAILURE_ACTION",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_QUIC_DIRECTION",
+    "kind": "type",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_QUIC_DIRECTION",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_QUIC_FLOW",
+    "kind": "type",
+    "header": "xdp/program.h",
+    "sys": "XDP_QUIC_FLOW",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_QUIC_OPERATION",
+    "kind": "type",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_QUIC_OPERATION",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_REDIRECT_PARAMS",
+    "kind": "type",
+    "header": "xdp/program.h",
+    "sys": "XDP_REDIRECT_PARAMS",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_REDIRECT_TARGET_TYPE",
+    "kind": "type",
+    "header": "xdp/program.h",
+    "sys": "XDP_REDIRECT_TARGET_TYPE",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_RSS_CAPABILITIES",
+    "kind": "type",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_RSS_CAPABILITIES",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_RSS_CONFIGURATION",
+    "kind": "type",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_RSS_CONFIGURATION",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_RULE",
+    "kind": "type",
+    "header": "xdpapi.h",
+    "sys": "XDP_RULE",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_RULE_ACTION",
+    "kind": "type",
+    "header": "xdp/program.h",
+    "sys": "XDP_RULE_ACTION",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_TUPLE",
+    "kind": "type",
+    "header": "xdp/program.h",
+    "sys": "XDP_TUPLE",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_VERSION",
+    "kind": "type",
+    "header": "xdp/apiversion.h",
+    "sys": "XDP_VERSION",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_ACTIVATE_FLAGS",
+    "kind": "type",
+    "header": "afxdp.h",
+    "sys": "XSK_ACTIVATE_FLAGS",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_BIND_FLAGS",
+    "kind": "type",
+    "header": "afxdp.h",
+    "sys": "XSK_BIND_FLAGS",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_BUFFER_ADDRESS",
+    "kind": "type",
+    "header": "afxdp.h",
+    "sys": "XSK_BUFFER_ADDRESS",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_BUFFER_DESCRIPTOR",
+    "kind": "type",
+    "header": "afxdp.h",
+    "sys": "XSK_BUFFER_DESCRIPTOR",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_ERROR",
+    "kind": "type",
+    "header": "afxdp.h",
+    "sys": "XSK_ERROR",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_FRAME_DESCRIPTOR",
+    "kind": "type",
+    "header": "afxdp.h",
+    "sys": "XSK_FRAME_DESCRIPTOR",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_FRAME_ORIGINAL_LENGTH",
+    "kind": "type",
+    "header": "afxdp.h",
+    "sys": "XSK_FRAME_ORIGINAL_LENGTH",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_NOTIFY_FLAGS",
+    "kind": "type",
+    "header": "afxdp.h",
+    "sys": "XSK_NOTIFY_FLAGS",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_NOTIFY_RESULT_FLAGS",
+    "kind": "type",
+    "header": "afxdp.h",
+    "sys": "XSK_NOTIFY_RESULT_FLAGS",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_POLL_MODE",
+    "kind": "type",
+    "header": "afxdp_experimental.h",
+    "sys": "XSK_POLL_MODE",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XSK_RING",
+    "kind": "type",
+    "header": "afxdp_helper.h",
+    "sys": "XSK_RING",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_RING_FLAGS",
+    "kind": "type",
+    "header": "afxdp.h",
+    "sys": "XSK_RING_FLAGS",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_RING_INFO",
+    "kind": "type",
+    "header": "afxdp.h",
+    "sys": "XSK_RING_INFO",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_RING_INFO_SET",
+    "kind": "type",
+    "header": "afxdp.h",
+    "sys": "XSK_RING_INFO_SET",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_STATISTICS",
+    "kind": "type",
+    "header": "afxdp.h",
+    "sys": "XSK_STATISTICS",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_UMEM_REG",
+    "kind": "type",
+    "header": "afxdp.h",
+    "sys": "XSK_UMEM_REG",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "xdp_md_t",
+    "kind": "type",
+    "header": "xdp/ebpfhook.h",
+    "sys": "xdp_md_t",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "xdp_action_t",
+    "kind": "type",
+    "header": "xdp/ebpfhook.h",
+    "sys": "xdp_action_t",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "xdp_hook_t",
+    "kind": "type",
+    "header": "xdp/ebpfhook.h",
+    "sys": "xdp_hook_t",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "compile-time signature",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_API_VERSION_1",
+    "kind": "constant",
+    "header": "xdp/apiversion.h",
+    "sys": "XDP_API_VERSION_1",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_API_VERSION_2",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XDP_API_VERSION_2",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_API_VERSION_3",
+    "kind": "constant",
+    "header": "xdp/apiversion.h",
+    "sys": "XDP_API_VERSION_3",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_API_VERSION_LATEST",
+    "kind": "constant",
+    "header": "xdp/apiversion.h",
+    "sys": "XDP_API_VERSION_LATEST",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_CHECKSUM_CONFIGURATION_REVISION_1",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_CHECKSUM_CONFIGURATION_REVISION_1",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_CREATE_PROGRAM_FLAG_ALL_QUEUES",
+    "kind": "constant",
+    "header": "xdpapi.h",
+    "sys": "XDP_CREATE_PROGRAM_FLAG_ALL_QUEUES",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_CREATE_PROGRAM_FLAG_GENERIC",
+    "kind": "constant",
+    "header": "xdpapi.h",
+    "sys": "XDP_CREATE_PROGRAM_FLAG_GENERIC",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_CREATE_PROGRAM_FLAG_NATIVE",
+    "kind": "constant",
+    "header": "xdpapi.h",
+    "sys": "XDP_CREATE_PROGRAM_FLAG_NATIVE",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_CREATE_PROGRAM_FLAG_NONE",
+    "kind": "constant",
+    "header": "xdpapi.h",
+    "sys": "XDP_CREATE_PROGRAM_FLAG_NONE",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_HOOK_INJECT",
+    "kind": "constant",
+    "header": "xdp/hookid.h",
+    "sys": "XDP_HOOK_INJECT",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_HOOK_INSPECT",
+    "kind": "constant",
+    "header": "xdp/hookid.h",
+    "sys": "XDP_HOOK_INSPECT",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_HOOK_L2",
+    "kind": "constant",
+    "header": "xdp/hookid.h",
+    "sys": "XDP_HOOK_L2",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_HOOK_RX",
+    "kind": "constant",
+    "header": "xdp/hookid.h",
+    "sys": "XDP_HOOK_RX",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_HOOK_TX",
+    "kind": "constant",
+    "header": "xdp/hookid.h",
+    "sys": "XDP_HOOK_TX",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_MAP_TYPE_XSKMAP",
+    "kind": "constant",
+    "header": "xdpapi.h",
+    "sys": "XDP_MAP_TYPE_XSKMAP",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_MATCH_ALL",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_MATCH_ALL",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_MATCH_ICMPV4_ECHO_REPLY_IP_DST",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_MATCH_ICMPV4_ECHO_REPLY_IP_DST",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_MATCH_ICMPV6_ECHO_REPLY_IP_DST",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_MATCH_ICMPV6_ECHO_REPLY_IP_DST",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_MATCH_INNER_IPV4_DST_MASK_UDP",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_MATCH_INNER_IPV4_DST_MASK_UDP",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_MATCH_INNER_IPV6_DST_MASK_UDP",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_MATCH_INNER_IPV6_DST_MASK_UDP",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_MATCH_IPV4_DST_MASK",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_MATCH_IPV4_DST_MASK",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_MATCH_IPV4_TCP_PORT_SET",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_MATCH_IPV4_TCP_PORT_SET",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_MATCH_IPV4_UDP_PORT_SET",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_MATCH_IPV4_UDP_PORT_SET",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_MATCH_IPV4_UDP_TUPLE",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_MATCH_IPV4_UDP_TUPLE",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_MATCH_IPV6_DST_MASK",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_MATCH_IPV6_DST_MASK",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_MATCH_IPV6_TCP_PORT_SET",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_MATCH_IPV6_TCP_PORT_SET",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_MATCH_IPV6_UDP_PORT_SET",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_MATCH_IPV6_UDP_PORT_SET",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_MATCH_IPV6_UDP_TUPLE",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_MATCH_IPV6_UDP_TUPLE",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_MATCH_IP_NEXT_HEADER",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_MATCH_IP_NEXT_HEADER",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_MATCH_QUIC_FLOW_DST_CID",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_MATCH_QUIC_FLOW_DST_CID",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_MATCH_QUIC_FLOW_SRC_CID",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_MATCH_QUIC_FLOW_SRC_CID",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_MATCH_TCP_CONTROL_DST",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_MATCH_TCP_CONTROL_DST",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_MATCH_TCP_DST",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_MATCH_TCP_DST",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_MATCH_TCP_QUIC_FLOW_DST_CID",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_MATCH_TCP_QUIC_FLOW_DST_CID",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_MATCH_TCP_QUIC_FLOW_SRC_CID",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_MATCH_TCP_QUIC_FLOW_SRC_CID",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_MATCH_UDP",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_MATCH_UDP",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_MATCH_UDP_DST",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_MATCH_UDP_DST",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_MATCH_UDP_PORT_SET",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_MATCH_UDP_PORT_SET",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_PORT_SET_BUFFER_SIZE",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_PORT_SET_BUFFER_SIZE",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_PROGRAM_ACTION_DROP",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_PROGRAM_ACTION_DROP",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_PROGRAM_ACTION_EBPF",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_PROGRAM_ACTION_EBPF",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_PROGRAM_ACTION_L2FWD",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_PROGRAM_ACTION_L2FWD",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_PROGRAM_ACTION_PASS",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_PROGRAM_ACTION_PASS",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_PROGRAM_ACTION_REDIRECT",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_PROGRAM_ACTION_REDIRECT",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_QUIC_ADDRESS_FAMILY_INET4",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_QUIC_ADDRESS_FAMILY_INET4",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_QUIC_ADDRESS_FAMILY_INET6",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_QUIC_ADDRESS_FAMILY_INET6",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_QUIC_CIPHER_TYPE_AEAD_AES_128_CCM",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_QUIC_CIPHER_TYPE_AEAD_AES_128_CCM",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_QUIC_CIPHER_TYPE_AEAD_AES_128_GCM",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_QUIC_CIPHER_TYPE_AEAD_AES_128_GCM",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_QUIC_CIPHER_TYPE_AEAD_AES_256_GCM",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_QUIC_CIPHER_TYPE_AEAD_AES_256_GCM",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_QUIC_CIPHER_TYPE_AEAD_CHACHA20_POLY1305",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_QUIC_CIPHER_TYPE_AEAD_CHACHA20_POLY1305",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_QUIC_CONNECTION_REVISION_1",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_QUIC_CONNECTION_REVISION_1",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_QUIC_DECRYPT_FAILURE_ACTION_CONTINUE",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_QUIC_DECRYPT_FAILURE_ACTION_CONTINUE",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_QUIC_DECRYPT_FAILURE_ACTION_DROP",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_QUIC_DECRYPT_FAILURE_ACTION_DROP",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_QUIC_DIRECTION_RECEIVE",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_QUIC_DIRECTION_RECEIVE",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_QUIC_DIRECTION_TRANSMIT",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_QUIC_DIRECTION_TRANSMIT",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_QUIC_MAX_CID_LENGTH",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_QUIC_MAX_CID_LENGTH",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_QUIC_OPERATION_ADD",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_QUIC_OPERATION_ADD",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_QUIC_OPERATION_REMOVE",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_QUIC_OPERATION_REMOVE",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_REDIRECT_TARGET_TYPE_XSK",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_REDIRECT_TARGET_TYPE_XSK",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_REDIRECT_TARGET_TYPE_XSKMAP_BY_QUEUEID",
+    "kind": "constant",
+    "header": "xdp/program.h",
+    "sys": "XDP_REDIRECT_TARGET_TYPE_XSKMAP_BY_QUEUEID",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_RSS_CAPABILITIES_REVISION_1",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_RSS_CAPABILITIES_REVISION_1",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_RSS_CAPABILITIES_REVISION_2",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_RSS_CAPABILITIES_REVISION_2",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_RSS_CONFIGURATION_REVISION_1",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_RSS_CONFIGURATION_REVISION_1",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_RSS_FLAG_DISABLED",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_RSS_FLAG_DISABLED",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_RSS_FLAG_SET_HASH_SECRET_KEY",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_RSS_FLAG_SET_HASH_SECRET_KEY",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_RSS_FLAG_SET_HASH_TYPE",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_RSS_FLAG_SET_HASH_TYPE",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_RSS_FLAG_SET_INDIRECTION_TABLE",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_RSS_FLAG_SET_INDIRECTION_TABLE",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_RSS_HASH_TYPE_IPV4",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_RSS_HASH_TYPE_IPV4",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_RSS_HASH_TYPE_IPV6",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_RSS_HASH_TYPE_IPV6",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_RSS_HASH_TYPE_IPV6_EX",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_RSS_HASH_TYPE_IPV6_EX",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_RSS_HASH_TYPE_TCP_IPV4",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_RSS_HASH_TYPE_TCP_IPV4",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_RSS_HASH_TYPE_TCP_IPV6",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_RSS_HASH_TYPE_TCP_IPV6",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_RSS_HASH_TYPE_TCP_IPV6_EX",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_RSS_HASH_TYPE_TCP_IPV6_EX",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_RSS_HASH_TYPE_UDP_IPV4",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_RSS_HASH_TYPE_UDP_IPV4",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_RSS_HASH_TYPE_UDP_IPV6",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_RSS_HASH_TYPE_UDP_IPV6",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_RSS_HASH_TYPE_UDP_IPV6_EX",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_RSS_HASH_TYPE_UDP_IPV6_EX",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_RSS_VALID_FLAGS",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_RSS_VALID_FLAGS",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_RSS_VALID_HASH_TYPES",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_RSS_VALID_HASH_TYPES",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_SIZEOF_CHECKSUM_CONFIGURATION_REVISION_1",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_SIZEOF_CHECKSUM_CONFIGURATION_REVISION_1",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_SIZEOF_QUIC_CONNECTION_REVISION_1",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_SIZEOF_QUIC_CONNECTION_REVISION_1",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_SIZEOF_RSS_CAPABILITIES_REVISION_1",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_SIZEOF_RSS_CAPABILITIES_REVISION_1",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_SIZEOF_RSS_CAPABILITIES_REVISION_2",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_SIZEOF_RSS_CAPABILITIES_REVISION_2",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_SIZEOF_RSS_CONFIGURATION_REVISION_1",
+    "kind": "constant",
+    "header": "xdpapi_experimental.h",
+    "sys": "XDP_SIZEOF_RSS_CONFIGURATION_REVISION_1",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_STATUS_INTERNAL_ERROR",
+    "kind": "constant",
+    "header": "xdp/status.h",
+    "sys": "XDP_STATUS_INTERNAL_ERROR",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_STATUS_INVALID_PARAMETER",
+    "kind": "constant",
+    "header": "xdp/status.h",
+    "sys": "XDP_STATUS_INVALID_PARAMETER",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_STATUS_NOT_SUPPORTED",
+    "kind": "constant",
+    "header": "xdp/status.h",
+    "sys": "XDP_STATUS_NOT_SUPPORTED",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_STATUS_OUT_OF_MEMORY",
+    "kind": "constant",
+    "header": "xdp/status.h",
+    "sys": "XDP_STATUS_OUT_OF_MEMORY",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_STATUS_PENDING",
+    "kind": "constant",
+    "header": "xdp/status.h",
+    "sys": "XDP_STATUS_PENDING",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_STATUS_SUCCESS",
+    "kind": "constant",
+    "header": "xdp/status.h",
+    "sys": "XDP_STATUS_SUCCESS",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_STATUS_TIMEOUT",
+    "kind": "constant",
+    "header": "xdp/status.h",
+    "sys": "XDP_STATUS_TIMEOUT",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_ACTIVATE_FLAG_NONE",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_ACTIVATE_FLAG_NONE",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_BIND_FLAG_GENERIC",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_BIND_FLAG_GENERIC",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_BIND_FLAG_NATIVE",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_BIND_FLAG_NATIVE",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_BIND_FLAG_NONE",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_BIND_FLAG_NONE",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_BIND_FLAG_RX",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_BIND_FLAG_RX",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_BIND_FLAG_TX",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_BIND_FLAG_TX",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_ERROR_INTERFACE_DETACH",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_ERROR_INTERFACE_DETACH",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_ERROR_INVALID_RING",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_ERROR_INVALID_RING",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_FRAME_EXTENSION_ORIGINAL_LENGTH_NAME",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_FRAME_EXTENSION_ORIGINAL_LENGTH_NAME",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_FRAME_EXTENSION_ORIGINAL_LENGTH_VERSION_1",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_FRAME_EXTENSION_ORIGINAL_LENGTH_VERSION_1",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_NOTIFY_FLAG_NONE",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_NOTIFY_FLAG_NONE",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_NOTIFY_FLAG_POKE_RX",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_NOTIFY_FLAG_POKE_RX",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_NOTIFY_FLAG_POKE_TX",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_NOTIFY_FLAG_POKE_TX",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_NOTIFY_FLAG_WAIT_RX",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_NOTIFY_FLAG_WAIT_RX",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_NOTIFY_FLAG_WAIT_TX",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_NOTIFY_FLAG_WAIT_TX",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_NOTIFY_RESULT_FLAG_NONE",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_NOTIFY_RESULT_FLAG_NONE",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_NOTIFY_RESULT_FLAG_RX_AVAILABLE",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_NOTIFY_RESULT_FLAG_RX_AVAILABLE",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_NOTIFY_RESULT_FLAG_TX_COMP_AVAILABLE",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_NOTIFY_RESULT_FLAG_TX_COMP_AVAILABLE",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_NO_ERROR",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_NO_ERROR",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_POLL_MODE_BUSY",
+    "kind": "constant",
+    "header": "afxdp_experimental.h",
+    "sys": "XSK_POLL_MODE_BUSY",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XSK_POLL_MODE_DEFAULT",
+    "kind": "constant",
+    "header": "afxdp_experimental.h",
+    "sys": "XSK_POLL_MODE_DEFAULT",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XSK_POLL_MODE_SOCKET",
+    "kind": "constant",
+    "header": "afxdp_experimental.h",
+    "sys": "XSK_POLL_MODE_SOCKET",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XSK_RING_FLAG_AFFINITY_CHANGED",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_RING_FLAG_AFFINITY_CHANGED",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_RING_FLAG_ERROR",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_RING_FLAG_ERROR",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_RING_FLAG_NEED_POKE",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_RING_FLAG_NEED_POKE",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XSK_RING_FLAG_NONE",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_RING_FLAG_NONE",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_RING_FLAG_OFFLOAD_CHANGED",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_RING_FLAG_OFFLOAD_CHANGED",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_SOCKOPT_POLL_MODE",
+    "kind": "constant",
+    "header": "afxdp_experimental.h",
+    "sys": "XSK_SOCKOPT_POLL_MODE",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XSK_SOCKOPT_RING_INFO",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_SOCKOPT_RING_INFO",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_SOCKOPT_RX_ERROR",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_SOCKOPT_RX_ERROR",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_SOCKOPT_RX_FILL_ERROR",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_SOCKOPT_RX_FILL_ERROR",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_SOCKOPT_RX_FILL_RING_SIZE",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_SOCKOPT_RX_FILL_RING_SIZE",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_SOCKOPT_RX_FRAME_CHECKSUM_EXTENSION",
+    "kind": "constant",
+    "header": "afxdp_experimental.h",
+    "sys": "XSK_SOCKOPT_RX_FRAME_CHECKSUM_EXTENSION",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XSK_SOCKOPT_RX_FRAME_LAYOUT_EXTENSION",
+    "kind": "constant",
+    "header": "afxdp_experimental.h",
+    "sys": "XSK_SOCKOPT_RX_FRAME_LAYOUT_EXTENSION",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XSK_SOCKOPT_RX_FRAME_ORIGINAL_LENGTH_EXTENSION",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_SOCKOPT_RX_FRAME_ORIGINAL_LENGTH_EXTENSION",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_SOCKOPT_RX_FRAME_TIMESTAMP_EXTENSION",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_SOCKOPT_RX_FRAME_TIMESTAMP_EXTENSION",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_SOCKOPT_RX_HOOK_ID",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_SOCKOPT_RX_HOOK_ID",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_SOCKOPT_RX_OFFLOAD_CHECKSUM",
+    "kind": "constant",
+    "header": "afxdp_experimental.h",
+    "sys": "XSK_SOCKOPT_RX_OFFLOAD_CHECKSUM",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XSK_SOCKOPT_RX_OFFLOAD_CURRENT_CONFIG_CHECKSUM",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_SOCKOPT_RX_OFFLOAD_CURRENT_CONFIG_CHECKSUM",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_SOCKOPT_RX_OFFLOAD_TIMESTAMP",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_SOCKOPT_RX_OFFLOAD_TIMESTAMP",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_SOCKOPT_RX_ORIGINAL_LENGTH",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_SOCKOPT_RX_ORIGINAL_LENGTH",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_SOCKOPT_RX_PROCESSOR_AFFINITY",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_SOCKOPT_RX_PROCESSOR_AFFINITY",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_SOCKOPT_RX_RING_SIZE",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_SOCKOPT_RX_RING_SIZE",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_SOCKOPT_STATISTICS",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_SOCKOPT_STATISTICS",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_SOCKOPT_TX_COMPLETION_ERROR",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_SOCKOPT_TX_COMPLETION_ERROR",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_SOCKOPT_TX_COMPLETION_RING_SIZE",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_SOCKOPT_TX_COMPLETION_RING_SIZE",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_SOCKOPT_TX_ERROR",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_SOCKOPT_TX_ERROR",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_SOCKOPT_TX_FRAME_CHECKSUM_EXTENSION",
+    "kind": "constant",
+    "header": "afxdp_experimental.h",
+    "sys": "XSK_SOCKOPT_TX_FRAME_CHECKSUM_EXTENSION",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XSK_SOCKOPT_TX_FRAME_LAYOUT_EXTENSION",
+    "kind": "constant",
+    "header": "afxdp_experimental.h",
+    "sys": "XSK_SOCKOPT_TX_FRAME_LAYOUT_EXTENSION",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XSK_SOCKOPT_TX_FRAME_TIMESTAMP_EXTENSION",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_SOCKOPT_TX_FRAME_TIMESTAMP_EXTENSION",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_SOCKOPT_TX_HOOK_ID",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_SOCKOPT_TX_HOOK_ID",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_SOCKOPT_TX_OFFLOAD_CHECKSUM",
+    "kind": "constant",
+    "header": "afxdp_experimental.h",
+    "sys": "XSK_SOCKOPT_TX_OFFLOAD_CHECKSUM",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XSK_SOCKOPT_TX_OFFLOAD_CURRENT_CONFIG_CHECKSUM",
+    "kind": "constant",
+    "header": "afxdp_experimental.h",
+    "sys": "XSK_SOCKOPT_TX_OFFLOAD_CURRENT_CONFIG_CHECKSUM",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XSK_SOCKOPT_TX_OFFLOAD_TIMESTAMP",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_SOCKOPT_TX_OFFLOAD_TIMESTAMP",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_SOCKOPT_TX_PROCESSOR_AFFINITY",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_SOCKOPT_TX_PROCESSOR_AFFINITY",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_SOCKOPT_TX_RING_SIZE",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_SOCKOPT_TX_RING_SIZE",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XSK_SOCKOPT_UMEM_REG",
+    "kind": "constant",
+    "header": "afxdp.h",
+    "sys": "XSK_SOCKOPT_UMEM_REG",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XdpFrameLayer2TypeEthernet",
+    "kind": "constant",
+    "header": "xdp/framelayout.h",
+    "sys": "XdpFrameLayer2TypeEthernet",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XdpFrameLayer2TypeNull",
+    "kind": "constant",
+    "header": "xdp/framelayout.h",
+    "sys": "XdpFrameLayer2TypeNull",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XdpFrameLayer2TypeUnspecified",
+    "kind": "constant",
+    "header": "xdp/framelayout.h",
+    "sys": "XdpFrameLayer2TypeUnspecified",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XdpFrameLayer3TypeIPv4NoOptions",
+    "kind": "constant",
+    "header": "xdp/framelayout.h",
+    "sys": "XdpFrameLayer3TypeIPv4NoOptions",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XdpFrameLayer3TypeIPv4UnspecifiedOptions",
+    "kind": "constant",
+    "header": "xdp/framelayout.h",
+    "sys": "XdpFrameLayer3TypeIPv4UnspecifiedOptions",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XdpFrameLayer3TypeIPv4WithOptions",
+    "kind": "constant",
+    "header": "xdp/framelayout.h",
+    "sys": "XdpFrameLayer3TypeIPv4WithOptions",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XdpFrameLayer3TypeIPv6NoExtensions",
+    "kind": "constant",
+    "header": "xdp/framelayout.h",
+    "sys": "XdpFrameLayer3TypeIPv6NoExtensions",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XdpFrameLayer3TypeIPv6UnspecifiedExtensions",
+    "kind": "constant",
+    "header": "xdp/framelayout.h",
+    "sys": "XdpFrameLayer3TypeIPv6UnspecifiedExtensions",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XdpFrameLayer3TypeIPv6WithExtensions",
+    "kind": "constant",
+    "header": "xdp/framelayout.h",
+    "sys": "XdpFrameLayer3TypeIPv6WithExtensions",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XdpFrameLayer3TypeUnspecified",
+    "kind": "constant",
+    "header": "xdp/framelayout.h",
+    "sys": "XdpFrameLayer3TypeUnspecified",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XdpFrameLayer4TypeIPFragment",
+    "kind": "constant",
+    "header": "xdp/framelayout.h",
+    "sys": "XdpFrameLayer4TypeIPFragment",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XdpFrameLayer4TypeIPNotFragment",
+    "kind": "constant",
+    "header": "xdp/framelayout.h",
+    "sys": "XdpFrameLayer4TypeIPNotFragment",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XdpFrameLayer4TypeTcp",
+    "kind": "constant",
+    "header": "xdp/framelayout.h",
+    "sys": "XdpFrameLayer4TypeTcp",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XdpFrameLayer4TypeUdp",
+    "kind": "constant",
+    "header": "xdp/framelayout.h",
+    "sys": "XdpFrameLayer4TypeUdp",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XdpFrameLayer4TypeUnspecified",
+    "kind": "constant",
+    "header": "xdp/framelayout.h",
+    "sys": "XdpFrameLayer4TypeUnspecified",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XdpFrameRxChecksumEvaluationFailed",
+    "kind": "constant",
+    "header": "xdp/framechecksum.h",
+    "sys": "XdpFrameRxChecksumEvaluationFailed",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XdpFrameRxChecksumEvaluationInvalid",
+    "kind": "constant",
+    "header": "xdp/framechecksum.h",
+    "sys": "XdpFrameRxChecksumEvaluationInvalid",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XdpFrameRxChecksumEvaluationNotChecked",
+    "kind": "constant",
+    "header": "xdp/framechecksum.h",
+    "sys": "XdpFrameRxChecksumEvaluationNotChecked",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XdpFrameRxChecksumEvaluationSucceeded",
+    "kind": "constant",
+    "header": "xdp/framechecksum.h",
+    "sys": "XdpFrameRxChecksumEvaluationSucceeded",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XdpFrameTxChecksumActionPassthrough",
+    "kind": "constant",
+    "header": "xdp/framechecksum.h",
+    "sys": "XdpFrameTxChecksumActionPassthrough",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XdpFrameTxChecksumActionRequired",
+    "kind": "constant",
+    "header": "xdp/framechecksum.h",
+    "sys": "XdpFrameTxChecksumActionRequired",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_PASS",
+    "kind": "constant",
+    "header": "xdp/ebpfhook.h",
+    "sys": "XDP_PASS",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_DROP",
+    "kind": "constant",
+    "header": "xdp/ebpfhook.h",
+    "sys": "XDP_DROP",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_TX",
+    "kind": "constant",
+    "header": "xdp/ebpfhook.h",
+    "sys": "XDP_TX",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XDP_REDIRECT",
+    "kind": "constant",
+    "header": "xdp/ebpfhook.h",
+    "sys": "XDP_REDIRECT",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native_layouts_and_constants",
+    "notes": ""
+  },
+  {
+    "symbol": "XskCreate",
+    "kind": "function",
+    "header": "afxdp.h",
+    "sys": "XskCreate",
+    "high_level": "Socket",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": ""
+  },
+  {
+    "symbol": "XskBind",
+    "kind": "function",
+    "header": "afxdp.h",
+    "sys": "XskBind",
+    "high_level": "Socket",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": ""
+  },
+  {
+    "symbol": "XskActivate",
+    "kind": "function",
+    "header": "afxdp.h",
+    "sys": "XskActivate",
+    "high_level": "Socket",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": ""
+  },
+  {
+    "symbol": "XskSetSockopt",
+    "kind": "function",
+    "header": "afxdp.h",
+    "sys": "XskSetSockopt",
+    "high_level": "Socket",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": ""
+  },
+  {
+    "symbol": "XskGetSockopt",
+    "kind": "function",
+    "header": "afxdp.h",
+    "sys": "XskGetSockopt",
+    "high_level": "Socket",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": ""
+  },
+  {
+    "symbol": "XskIoctl",
+    "kind": "function",
+    "header": "afxdp.h",
+    "sys": "XskIoctl",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": ""
+  },
+  {
+    "symbol": "XskNotifySocket",
+    "kind": "function",
+    "header": "afxdp.h",
+    "sys": "XskNotifySocket",
+    "high_level": "Socket",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XskNotifyAsync",
+    "kind": "function",
+    "header": "afxdp.h",
+    "sys": "XskNotifyAsync",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": ""
+  },
+  {
+    "symbol": "XskGetNotifyAsyncResult",
+    "kind": "function",
+    "header": "afxdp.h",
+    "sys": "XskGetNotifyAsyncResult",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": ""
+  },
+  {
+    "symbol": "XskRingInitialize",
+    "kind": "function",
+    "header": "afxdp_helper.h",
+    "sys": "XskRingInitialize",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": ""
+  },
+  {
+    "symbol": "XskRingGetElement",
+    "kind": "function",
+    "header": "afxdp_helper.h",
+    "sys": "XskRingGetElement",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": ""
+  },
+  {
+    "symbol": "XskRingGetFlags",
+    "kind": "function",
+    "header": "afxdp_helper.h",
+    "sys": "XskRingGetFlags",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": ""
+  },
+  {
+    "symbol": "XskRingConsumerReserve",
+    "kind": "function",
+    "header": "afxdp_helper.h",
+    "sys": "XskRingConsumerReserve",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": ""
+  },
+  {
+    "symbol": "XskRingConsumerRelease",
+    "kind": "function",
+    "header": "afxdp_helper.h",
+    "sys": "XskRingConsumerRelease",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": ""
+  },
+  {
+    "symbol": "XskRingProducerReserve",
+    "kind": "function",
+    "header": "afxdp_helper.h",
+    "sys": "XskRingProducerReserve",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": ""
+  },
+  {
+    "symbol": "XskRingProducerSubmit",
+    "kind": "function",
+    "header": "afxdp_helper.h",
+    "sys": "XskRingProducerSubmit",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": ""
+  },
+  {
+    "symbol": "XskRingError",
+    "kind": "function",
+    "header": "afxdp_helper.h",
+    "sys": "XskRingError",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": ""
+  },
+  {
+    "symbol": "XskRingProducerNeedPoke",
+    "kind": "function",
+    "header": "afxdp_helper.h",
+    "sys": "XskRingProducerNeedPoke",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": ""
+  },
+  {
+    "symbol": "XskRingAffinityChanged",
+    "kind": "function",
+    "header": "afxdp_helper.h",
+    "sys": "XskRingAffinityChanged",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": ""
+  },
+  {
+    "symbol": "XskRingOffloadChanged",
+    "kind": "function",
+    "header": "afxdp_helper.h",
+    "sys": "XskRingOffloadChanged",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": ""
+  },
+  {
+    "symbol": "XdpCreateProgram",
+    "kind": "function",
+    "header": "xdpapi.h",
+    "sys": "XdpCreateProgram",
+    "high_level": "raw ABI only",
+    "status": "deprecated",
+    "test": "native link / hardware opt-in",
+    "notes": ""
+  },
+  {
+    "symbol": "XdpInterfaceOpen",
+    "kind": "function",
+    "header": "xdpapi.h",
+    "sys": "XdpInterfaceOpen",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": ""
+  },
+  {
+    "symbol": "XdpMapCreate",
+    "kind": "function",
+    "header": "xdpapi.h",
+    "sys": "XdpMapCreate",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": ""
+  },
+  {
+    "symbol": "XdpMapInsert",
+    "kind": "function",
+    "header": "xdpapi.h",
+    "sys": "XdpMapInsert",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": ""
+  },
+  {
+    "symbol": "XdpMapDelete",
+    "kind": "function",
+    "header": "xdpapi.h",
+    "sys": "XdpMapDelete",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": ""
+  },
+  {
+    "symbol": "XdpInitializeRssCapabilities",
+    "kind": "function",
+    "header": "xdpapi_experimental.h",
+    "sys": "XdpInitializeRssCapabilities",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XdpInitializeRssConfiguration",
+    "kind": "function",
+    "header": "xdpapi_experimental.h",
+    "sys": "XdpInitializeRssConfiguration",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XdpInitializeQuicConnection",
+    "kind": "function",
+    "header": "xdpapi_experimental.h",
+    "sys": "XdpInitializeQuicConnection",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XdpRssGetCapabilities",
+    "kind": "function",
+    "header": "xdpapi_experimental.h",
+    "sys": "XdpRssGetCapabilities",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XdpRssSet",
+    "kind": "function",
+    "header": "xdpapi_experimental.h",
+    "sys": "XdpRssSet",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XdpRssGet",
+    "kind": "function",
+    "header": "xdpapi_experimental.h",
+    "sys": "XdpRssGet",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XdpQeoSet",
+    "kind": "function",
+    "header": "xdpapi_experimental.h",
+    "sys": "XdpQeoSet",
+    "high_level": "raw ABI only",
+    "status": "implemented",
+    "test": "native link / hardware opt-in",
+    "notes": "experimental"
+  },
+  {
+    "symbol": "XDP_STATUS",
+    "kind": "macro-adapter",
+    "header": "xdp/status.h",
+    "sys": "XDP_STATUS",
+    "high_level": "status handling",
+    "status": "implemented",
+    "test": "status_semantics",
+    "notes": "user-mode HRESULT semantics"
+  },
+  {
+    "symbol": "XDP_FAILED",
+    "kind": "macro-adapter",
+    "header": "xdp/status.h",
+    "sys": "XDP_FAILED",
+    "high_level": "status handling",
+    "status": "implemented",
+    "test": "status_semantics",
+    "notes": "user-mode HRESULT semantics"
+  },
+  {
+    "symbol": "XDP_SUCCEEDED",
+    "kind": "macro-adapter",
+    "header": "xdp/status.h",
+    "sys": "XDP_SUCCEEDED",
+    "high_level": "status handling",
+    "status": "implemented",
+    "test": "status_semantics",
+    "notes": "user-mode HRESULT semantics"
+  },
+  {
+    "symbol": "XdpRegisterDriverStartCallback",
+    "kind": "excluded",
+    "header": "xdpapi.h",
+    "sys": null,
+    "high_level": null,
+    "status": "not-applicable",
+    "test": null,
+    "notes": "kernel-only"
+  },
+  {
+    "symbol": "XdpDeregisterDriverStartCallback",
+    "kind": "excluded",
+    "header": "xdpapi.h",
+    "sys": null,
+    "high_level": null,
+    "status": "not-applicable",
+    "test": null,
+    "notes": "kernel-only"
+  },
+  {
+    "symbol": "XdpOpenApi",
+    "kind": "excluded",
+    "header": "xdp/xdpapi_v1.h",
+    "sys": null,
+    "high_level": null,
+    "status": "not-applicable",
+    "test": null,
+    "notes": "deprecated DLL dispatch ABI"
+  },
+  {
+    "symbol": "XDP_FRAME_FRAGMENT",
+    "kind": "excluded",
+    "header": "xdp/framefragment.h",
+    "sys": null,
+    "high_level": null,
+    "status": "not-applicable",
+    "test": null,
+    "notes": "kernel DDI; no XSK fragment socket option"
+  }
+]
