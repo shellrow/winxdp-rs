@@ -37,8 +37,8 @@ v0.1.0 targets Windows x64 and XDP 1.4.0. Generic RX/TX and eBPF steering are te
 on Windows 11 with a virtual NIC; native-mode traffic and broader hardware
 coverage remain unvalidated. The Rust API may change in later releases.
 
-See the [repository](https://github.com/shellrow/winxdp) for examples,
-[setup and compatibility](https://github.com/shellrow/winxdp/blob/main/docs/upstream-compatibility.md),
-and [safety contracts](https://github.com/shellrow/winxdp/blob/main/docs/safety.md).
+See the [repository](https://github.com/shellrow/winxdp-rs) for examples,
+[setup and compatibility](https://github.com/shellrow/winxdp-rs/blob/main/docs/upstream-compatibility.md),
+and [safety contracts](https://github.com/shellrow/winxdp-rs/blob/main/docs/safety.md).
 
 Licensed under MIT.

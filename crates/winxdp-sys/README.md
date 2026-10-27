@@ -11,7 +11,7 @@ The `legacy-rules` feature enables deprecated `XdpCreateProgram` calls. Experime
 upstream APIs retain their experimental status. Callers of the raw API must uphold
 pointer validity, buffer bounds, ring synchronization and resource lifetimes.
 
-See the [API inventory](https://github.com/shellrow/winxdp/blob/main/docs/api-coverage.md)
-and [compatibility guide](https://github.com/shellrow/winxdp/blob/main/docs/upstream-compatibility.md).
+See the [API inventory](https://github.com/shellrow/winxdp-rs/blob/main/docs/api-coverage.md)
+and [compatibility guide](https://github.com/shellrow/winxdp-rs/blob/main/docs/upstream-compatibility.md).
 
 Licensed under MIT. Vendored Microsoft headers retain their notices in `vendor/LICENSE`.
